@@ -1,14 +1,33 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  {% load static %}
-  <link rel="stylesheet" href="{% static 'style.css'%}">
+  <link rel="stylesheet" href="{% static 'styles.css' %}" > 
   <title>Dakhari Ebanks</title>
 </head>
-<body>
+<body id="body">
+  <!-- This div is for header/NavBar-->
+  <div id="header">
+    <div class="left"><p>Logo/Photo</p></div>
+    <div class="right">
+      <div><p>About</p></div>
+      <div><p>Work</p></div>
+      <div><p>Contact</p></div>
+    </div>
+  </div>
 
-  <p>Lets go Django!</p>
-  
-  
+  <!-- This div is for About me-->
+  <div class="about_me">
+    <h1 id="hello">Hello!</h1>
+    <p class="me">I am Dakhari Ebanks,
+      a software engineer Love you celine!!
+    </p>
+  </div>
+
+
+
+
+
 </body>
 </html>

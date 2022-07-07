@@ -1,6 +1,52 @@
-.p{
-  color: red;
-  background-color: black;
-  font-size: 30px;
+#header{
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  font-size: 60px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  justify-content: space-between;
+  box-shadow: 0px 0px 30px 5px rgb(53, 75, 202);;
+}
 
+.left{
+  font-size: 30px;
+  width: 10%;
+  display: flex;
+  margin: 0 0 0 30px;
+}
+.right{
+
+  width: 280px;
+  font-size: 25px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  margin: 0 60px 0 0;
+}
+
+#body{
+  background-color: rgb(60, 138, 215);
+  margin-bottom: 1000px;
+}
+
+.about_me{
+  height: 300px;
+  width: 40%;
+  margin: 300px;
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  background-color: rgb(53, 75, 202);
+  color: white;
+  padding: 1%;
+
+}
+
+#hello{
+  font-size: 3rem;
 }

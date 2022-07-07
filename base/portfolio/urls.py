@@ -20,6 +20,3 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('website.urls'))
 ]
-
-#3W;k4H*"+4-'mG]/cd!)>
-#3W;k4H*"+4-'mG]/cd!)>
