@@ -7,7 +7,6 @@
   flex-direction: row;
   position: absolute;
   justify-content: space-between;
-  box-shadow: 0px 0px 30px 5px rgb(53, 75, 202);;
 }
 
 .left{
@@ -29,21 +28,21 @@
 }
 
 #body{
-  background-color: rgb(60, 138, 215);
+  background-color: rgb(21, 5, 68);
   margin-bottom: 1000px;
 }
 
 .about_me{
   height: 300px;
-  width: 40%;
+  width: 60%;
   margin: 300px;
   display: table;
   margin-right: auto;
   margin-left: auto;
   border-radius: 10px;
-  background-color: rgb(53, 75, 202);
+  background-color: rgb(39, 5, 140);
   color: white;
-  padding: 1%;
+  padding: 2%;
 
 }
 
