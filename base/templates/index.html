@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="{% static 'styles.css' %}" > 
+  <link rel="stylesheet" href="{% static 'stylesheets/styles.css' %}" > 
   <title>Dakhari Ebanks</title>
 </head>
 <body id="body">
@@ -19,10 +19,22 @@
 
   <!-- This div is for About me-->
   <div class="about_me">
-    <h1 id="hello">Hello!</h1>
-    <p class="me">I am Dakhari Ebanks,
-      a software engineer Love you celine!!
+    <h1 id="hello">Hello! </h1>
+    <p class="me">Dakhari Ebanks,
+      software developer and computer engineering student.
     </p>
+  </div>
+
+  <!-- This div is for Projects-->
+  <div id="projects">
+    <div class="project-box">
+      <div class="project-preview">
+        <img class='TD-pic' src="{% static 'media/2D_game_pic.webp' %}">
+      </div>
+      <div class="project-Description">This project is my first attempt of making a 2D game using C++</div>
+      <div class="project-tech"><h1 class="Tech">Tech Stack</h1> <p>C++, Unity</p></div>
+      <div class="project-links">Git | Code </div>
+    </div>
   </div>
 
 
