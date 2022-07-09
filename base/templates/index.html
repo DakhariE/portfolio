@@ -1,4 +1,4 @@
-{% load static%}
+{% load static %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -27,16 +27,22 @@
 
   <!-- This div is for Projects-->
   <div id="projects">
+    {% for project in projects %}
     <div class="project-box">
+      <div class="name">{{project.name}}</div>
       <div class="project-preview">
-        <img class='TD-pic' src="{% static 'media/2D_game_pic.webp' %}">
+        <img class='TD-pic' src="{% static '/media/2D_game_pic.webp' %}">
       </div>
-      <div class="project-Description">This project is my first attempt of making a 2D game using C++</div>
-      <div class="project-tech"><h1 class="Tech">Tech Stack</h1> <p>C++, Unity</p></div>
-      <div class="project-links">Git | Code </div>
+      <div class="project-Description"><p>{{project.description}}</p></div>
+      <div class="project-tech"><h1>Tech Stack</h1> 
+        <p>{{project.tech}}</p>
+      </div>
+      <div class="project-links"> 
+        <a href='{{project.gitlink}}' target='blank'> Git </a> | 
+        <a href='{{project.codelink}}' target='blank'> Code </a>
+      </div>
     </div>
+    {% endfor %}
   </div>
-
-
 </body>
 </html>

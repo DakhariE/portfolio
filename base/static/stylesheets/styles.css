@@ -30,7 +30,6 @@
 
 #body{
   margin-bottom: 1000px;
-  background-color: blue;
 }
 
 .about_me{
@@ -70,18 +69,17 @@
 
 .TD-pic{
   width: 100%;
+  padding-top: 8px;
 }
 
 .project-Description{
   text-align: center;
-  padding: 10px;
 }
 
-.tech{
-  text-align: start;
-}
+
 .project-tech{
-  font-size: 15px; 
+  font-size: 16px;
+  text-align: center; 
 }
 
 .project-links{
@@ -89,4 +87,12 @@
   bottom: -23px;
   left: 50%;
   transform: translate(-50%, 0);
+}
+
+.name{
+  position: absolute;
+  top: 3px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 28px;
 }
