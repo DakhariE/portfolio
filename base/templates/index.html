@@ -31,7 +31,7 @@
     <div class="project-box">
       <div class="name">{{project.name}}</div>
       <div class="project-preview">
-        <img class='TD-pic' src="{% static '/media/2D_game_pic.webp' %}">
+        <img class='TD-pic' src="{{project.photo.url}}">
       </div>
       <div class="project-Description"><p>{{project.description}}</p></div>
       <div class="project-tech"><h1>Tech Stack</h1> 

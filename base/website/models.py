@@ -5,7 +5,7 @@ from django.db import models
 
 class Project(models.Model):
     name = models.CharField(max_length=10000)
-    photo = models.ImageField()
+    photo = models.ImageField(upload_to ='images/')
     description = models.CharField(max_length=1000000)
     tech = models.CharField(max_length=10000)
     gitlink =  models.URLField()
