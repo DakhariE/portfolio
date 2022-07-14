@@ -1,0 +1,8 @@
+.right-sidebar{
+  position: fixed;
+  right: 0;
+  top: 50%;
+  color: wheat;
+  background-color: rgb(11, 11, 11);
+}
+
