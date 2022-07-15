@@ -54,10 +54,19 @@
   </div>
 
   <!-- This div is for Contact form-->
-  <div class="contact-form">
-    <div><p>Hello</p></div>
-    <div><p>Hello!</p></div>
-  </div>
+    <div class="contact-info">
+      <p id="Contact-me">Contact me!</p>
+      {% csrf_token %}
+      <form method="POST">
+        <p>Name</p>
+        <input class="contact-name" type="text" name="contact-name">
+        <p>Email</p>
+        <input class="contact-email" type="email" name="contact-email">
+        <p>Message</p>
+        <input class="contact-text" type="text" name="contact-text">
+      </form>
+    </div>
+  
   
 </body>
 </html>

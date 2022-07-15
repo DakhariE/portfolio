@@ -1,5 +1,6 @@
 html{
   scroll-behavior: smooth;
+  font-size: 1.2rem;
 }
 #header{
   top: 0px;
@@ -45,7 +46,8 @@ html{
   margin-left: auto;
   border-radius: 10px;
   padding: 2%;
-  font-size: 2vw;
+  font-size: 2rem;
+  border: 1px solid black;
 }
 
 #projects{
@@ -56,6 +58,8 @@ html{
   width: 60%;
   justify-content: center;
   margin: auto;
+  margin-top: 10px;
+  
 }
 
 .project-box{
@@ -104,19 +108,30 @@ html{
   white-space: nowrap;
 }
 
-.contact-form{
+
+.contact-info{
+  margin: 100px auto;
   display: flex;
-  margin: 100px 0 0 0;
+  padding: 2%;
+  flex-direction: column;
   justify-content: center;
-  justify-self: center;
-  flex-direction: row;
+  align-items: start;
   border: 1px solid black;
-  height: 300px;
-  width: 30%;
+  width: 60%;
+  padding: 0 30px 30px 30px;
 }
 
+#Contact-me{
+  text-align: center;
+  width: 100%;
+}
+.contact-name{
+  width: auto;
+}
 
-
+.contact-text{
+  height: 300%;
+}
 
 
 @media(max-width: 800px){
