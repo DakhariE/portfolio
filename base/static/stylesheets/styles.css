@@ -104,6 +104,21 @@ html{
   white-space: nowrap;
 }
 
+.contact-form{
+  display: flex;
+  margin: 100px 0 0 0;
+  justify-content: center;
+  justify-self: center;
+  flex-direction: row;
+  border: 1px solid black;
+  height: 300px;
+  width: 30%;
+}
+
+
+
+
+
 @media(max-width: 800px){
   #projects{
     grid-template-columns: 1fr;
