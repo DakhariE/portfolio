@@ -56,15 +56,18 @@
   <!-- This div is for Contact form-->
     <div class="contact-info">
       <p id="Contact-me">Contact me!</p>
-      {% csrf_token %}
+      <div class="test">
       <form method="POST">
+      {% csrf_token %}
         <p>Name</p>
         <input class="contact-name" type="text" name="contact-name">
         <p>Email</p>
         <input class="contact-email" type="email" name="contact-email">
         <p>Message</p>
         <input class="contact-text" type="text" name="contact-text">
+        <input class="sumbit" type="Submit">
       </form>
+      </div>
     </div>
   
   
