@@ -35,7 +35,7 @@
         <img class='TD-pic' src="{{project.photo.url}}">
       </div>
       <div class="project-Description"><p>{{project.description}}</p></div>
-      <div class="project-tech"><h1>Tech Stack</h1> 
+      <div class="project-tech">
         <p>{{project.tech}}</p>
       </div>
       <div class="project-links"> 
@@ -55,7 +55,7 @@
 
   <!-- This div is for Contact form-->
     <div class="contact-info">
-      <p id="Contact-me">Contact me!</p>
+      <h1 id="Contact-me">Contact me!</h1>
       <div class="test">
       <form method="POST">
       {% csrf_token %}
@@ -64,8 +64,8 @@
         <p>Email</p>
         <input class="contact-email" type="email" name="contact-email">
         <p>Message</p>
-        <input class="contact-text" type="text" name="contact-text">
-        <input class="sumbit" type="Submit">
+        <textarea class="contact-text" type="text" name="contact-text"></textarea>
+        <input class="sumbit" type="Submit" value="Contact me">
       </form>
       </div>
     </div>
