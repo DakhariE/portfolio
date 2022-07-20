@@ -3,6 +3,34 @@
   right: 0;
   top: 50%;
   color: wheat;
-  background-color: rgb(11, 11, 11);
+  z-index: 100;
 }
 
+.sidebar-about,
+.sidebar-contact,
+.sidebar-work{
+  position: relative;
+  right: 10px;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 9px 0 9px;
+  z-index: 99;
+}
+.sidebar-about:hover,
+.sidebar-contact:hover,
+.sidebar-work:hover{
+  cursor: pointer;
+}
+
+
+.bar{
+  height: 20px;
+  width: 5px;
+  position: relative;
+  right: 2.5px;
+  margin: -10px 0 -10px;
+  background-color: rgb(0, 0, 0)
+}

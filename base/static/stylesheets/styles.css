@@ -33,12 +33,19 @@ html{
 }
 
 #body{
-  background-color: rgb(105, 105, 3);
+  /*
+  #1D7373
+  #042326
+  #0A3A40
+  
+  */
+  
+  background-color:  #1D7373;
   text-decoration: none;
 }
 
 .about_me{
-  height: 300px;
+  height: 500px;
   width: 50%;
   margin: 300px;
   display: table;
@@ -47,7 +54,6 @@ html{
   border-radius: 10px;
   padding: 2%;
   font-size: 2rem;
-  border: 1px solid black;
 }
 
 #projects{
@@ -114,10 +120,11 @@ html{
   display: flex;
   padding: 2%;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
+  width: 30%;
   padding: 0 30px 30px 30px;
+}
+.footer{
+  background-color: rgb(54, 53, 53);
 }
 
 #Contact-me{
@@ -132,37 +139,38 @@ html{
   
 }
 
-
 .contact-name,
 .contact-text,
 .contact-email{
   width: 100%;
   height: 25px;
   border-radius: 5px;
+  text-align: justify;
+  border-style: none;
+  box-shadow: inset 0 0 2px;
 }
 
 .sumbit{
-  position: relative;
-  width: 15%;
-  background-color: rgb(16, 213, 30);
+  width: 100px;
+  background-color: #2ce4c2;
   height: 40px;
   border-radius: 50px;
-  left: 3%;
-  right: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact-text{
   height: 100px;
   text-align: justify;
   white-space: wrap;
+  width: 100;
 }
-
-textarea{
-  width: 100%;
-  resize: none;
-  
+.Footer{
+  margin-top: 70px;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
-
 
 
 @media(max-width: 800px){
