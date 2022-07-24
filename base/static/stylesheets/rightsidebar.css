@@ -41,9 +41,9 @@
   top: -2px;
   padding: 15%;
   border-radius: 5px;
-  opacity: 1;
+  opacity: 0;
   pointer-events: none;
-  transition: opacity 1s;
+  transition: opacity 0.2s;
   font-size: 15px;
 }
 
