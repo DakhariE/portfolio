@@ -42,10 +42,11 @@ html{
   
   background-color:  #1D7373;
   text-decoration: none;
+  margin-bottom: 100px;
 }
 
-.about_me{
-  height: 500px;
+.intro{
+  height: 400px;
   width: 50%;
   margin: 300px;
   display: table;
@@ -54,8 +55,15 @@ html{
   border-radius: 10px;
   padding: 2%;
   font-size: 2rem;
+  box-shadow: 2px 2px 2px 2px black;
+  margin-bottom: 20%;
 }
 
+#title-projects{
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 60px;
+}
 #projects{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -65,6 +73,7 @@ html{
   justify-content: center;
   margin: auto;
   margin-top: 10px;
+  margin-bottom: 20%;
   
 }
 
@@ -123,14 +132,11 @@ html{
   width: 30%;
   padding: 0 30px 30px 30px;
 }
-.footer{
-  background-color: rgb(54, 53, 53);
-}
+
 
 #Contact-me{
   width: 100%;
   text-align: center;
-
 }
  
 .test{
@@ -152,25 +158,35 @@ html{
 
 .sumbit{
   width: 100px;
-  background-color: #2ce4c2;
+  background-color: #59d0b6;
   height: 40px;
   border-radius: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  display: block;
+  margin: 15px auto;
+  
 }
-
+.sumbit:hover{
+  cursor: pointer;
+  background-color: #59d0b617;
+}
 .contact-text{
   height: 100px;
   text-align: justify;
   white-space: wrap;
   width: 100;
 }
+
 .Footer{
   margin-top: 70px;
   position: absolute;
   left: 0;
   right: 0;
 }
+
+
+
+
+
 
 
 @media(max-width: 800px){

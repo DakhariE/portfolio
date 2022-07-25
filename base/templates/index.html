@@ -1,10 +1,11 @@
 {% load static %}
 
 <!DOCTYPE html>
-<html lang="en">
+<html id="top" lang="en">
 <head>
   <link rel="stylesheet" href="{% static 'stylesheets/styles.css' %}" > 
   <link rel="stylesheet" href="{% static 'stylesheets/rightsidebar.css' %}" >
+  <link rel="stylesheet" href="{% static 'stylesheets/scrollbar.css' %}" >
   <title>Dakhari Ebanks</title>
 </head>
 <body id="body">
@@ -19,15 +20,21 @@
   </div>
   -->
 
-  <!-- This div is for About me-->
-  <div class="about_me">
+  <!-- This div is for Introduction-->
+  <div class="intro">
     <h1 id="hello">Hello! </h1>
     <p class="me">Dakhari Ebanks,
       software developer and computer engineering student.
     </p>
   </div>
+  <!-- This div is for about me-->
+  <div class="about-me">
 
+  </div>
   <!-- This div is for Projects-->
+  <div id="title-projects">
+    <h1>Projects</h1>
+  </div>
   <div id="projects">
     {% for project in projects %}
     <div class="project-box">
@@ -49,13 +56,13 @@
 
   <!-- This div is for right Nav-sidebar-->
   <div class ="right-sidebar">
-    <a href="#hello">
+    <a href="#top">
       <div class="sidebar-about">
         <div class="tool-tip">About</div>
       </div>
     </a>
     <div class="bar"></div>
-    <a href="#projects">
+    <a href="#title-projects">
       <div class="sidebar-work">
         <div class="tool-tip">Projects</div>
       </div>
@@ -70,8 +77,10 @@
 
   <!-- This div is for Contact form/Footer-->
   <div class="Footer">
-  <div class="contact-info">
+    <div id="title-contact">
       <h1 id="Contact-me">Contact me!</h1>
+    </div>
+    <div class="contact-info">
       <div class="test">
       <form method="POST">
       {% csrf_token %}
@@ -85,7 +94,7 @@
       </form>
       </div>
     </div>
-    </div>
+  </div>
   
   
 </body>
