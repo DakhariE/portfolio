@@ -84,12 +84,9 @@
       <div class="test">
       <form method="POST">
       {% csrf_token %}
-        <p>Name</p>
-        <input class="contact-name" type="text" name="contact-name">
-        <p>Email</p>
-        <input class="contact-email" type="email" name="contact-email">
-        <p>Message</p>
-        <textarea class="contact-text" type="text" name="contact-text"></textarea>
+        <input class="contact-name" type="text" name="contact-name" placeholder="Name">
+        <input class="contact-email" type="email" name="contact-email" placeholder="Email">
+        <textarea class="contact-text" type="text" name="contact-text" placeholder="Message"></textarea>
         <input class="sumbit" type="Submit" value="Contact me">
       </form>
       </div>
