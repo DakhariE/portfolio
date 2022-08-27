@@ -81,15 +81,13 @@
       <h1 id="Contact-me">Contact me!</h1>
     </div>
     <div class="contact-info">
-      <div class="test">
-      <form method="POST">
+      <form method="POST" class="contact-form">
       {% csrf_token %}
         <input class="contact-name" type="text" name="contact-name" placeholder="Name">
         <input class="contact-email" type="email" name="contact-email" placeholder="Email">
         <textarea class="contact-text" type="text" name="contact-text" placeholder="Message"></textarea>
-        <input class="sumbit" type="Submit" value="Contact me">
+        <div class="sumbit"><input class="sumbit-button" type="Submit" value="Contact me"></div>
       </form>
-      </div>
     </div>
   </div>
   

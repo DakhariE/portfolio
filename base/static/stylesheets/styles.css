@@ -2,6 +2,7 @@ html{
   scroll-behavior: smooth;
   font-size: 1.2rem;
 }
+
 #header{
   top: 0px;
   left: 0px;
@@ -20,6 +21,7 @@ html{
   display: flex;
   margin: 0 0 0 30px;
 }
+
 .right{
 
   width: 280px;
@@ -37,7 +39,6 @@ html{
   #1D7373
   #042326
   #0A3A40
-  
   */
   
   background-color:  #1D7373;
@@ -64,6 +65,7 @@ html{
   text-align: center;
   margin: 60px;
 }
+
 #projects{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -101,7 +103,6 @@ html{
   margin-top: -15px;
 }
 
-
 .project-tech{
   font-size: 16px;
   text-align: center; 
@@ -123,26 +124,16 @@ html{
   white-space: nowrap;
 }
 
-
 .contact-info{
-  margin: 100px auto;
-  display: flex;
   padding: 2%;
-  flex-direction: column;
-  width: 30%;
+  width: 28%;
   padding: 0 30px 30px 30px;
+  position: relative;
+  margin: 3%;
 }
-
-
 #Contact-me{
   width: 100%;
   text-align: center;
-}
- 
-.test{
-  width: 100%;
-  white-space: wrap;
-  
 }
 
 .contact-name,
@@ -158,15 +149,20 @@ html{
 }
 
 .sumbit{
-  width: 100px;
+  padding: 0px 30px 0px 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.sumbit-button{
+  width: 85px;
   background-color: #59d0b6;
   height: 40px;
   border-radius: 50px;
-  display: block;
-  margin: 15px auto;
-  
+
 }
-.sumbit:hover{
+.sumbit-button:hover{
   cursor: pointer;
   background-color: #59d0b617;
 }
@@ -174,22 +170,14 @@ html{
   height: 100px;
   text-align: justify;
   white-space: wrap;
-  width: 100;
 }
 
 .Footer{
-  margin-top: 70px;
-  position: absolute;
-  left: 0;
-  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
-
-
-
-
-
-
 @media(max-width: 800px){
   #projects{
     grid-template-columns: 1fr;
