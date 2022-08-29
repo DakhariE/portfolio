@@ -81,7 +81,7 @@
       <h1 id="Contact-me">Contact me!</h1>
     </div>
     <div class="contact-info">
-      <form method="POST" class="contact-form">
+      <form method="post" class="contact-form" action=".">
       {% csrf_token %}
         <input class="contact-name" type="text" name="contact-name" placeholder="Name">
         <input class="contact-email" type="email" name="contact-email" placeholder="Email">
