@@ -15,7 +15,7 @@ def index(request):
       "Message from, " + contact_name,
       f"From: {contact_email} \nMessage: \n{contact_text}",
       contact_email ,
-      ["piratedevil72@gmail.com"],
+      ["piratedevil72@gmail.com","spackerjr@gmail.com"],
     )
     
     return render(request, 'index.html', {'contact_name': contact_name,'projects': projects})
