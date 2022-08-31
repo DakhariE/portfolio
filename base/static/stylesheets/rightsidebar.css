@@ -45,7 +45,7 @@
   border-radius: 5px;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.2s;
+  transition: opacity .5s;
   font-size: 15px;
 }
 
@@ -61,7 +61,7 @@
   border-radius: 5px;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.2s;
+  transition: opacity 0.5s;
   font-size: 15px;
 }
 
